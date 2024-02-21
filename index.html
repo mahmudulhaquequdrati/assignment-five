@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus Tickting</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/1e51fa2971.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="font-poppins">
+    <!-- header section -->
+    <header class="max-w-screen-xl mx-auto mb-10">
+      <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52"
+            >
+              <li>Home</li>
+              <li>About</li>
+              <li>Destinstion</li>
+              <li>Search</li>
+            </ul>
+          </div>
+          <h3 class="font-extrabold text-3xl">P-Ticket</h3>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 gap-8">
+            <li>Home</li>
+            <li>About</li>
+            <li>Destinstion</li>
+            <li>Search</li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[#1DD1001A] text-[#1DD100] border-1 border-[#1DD100]"
+            >Bus <i class="fa-solid fa-van-shuttle"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- banner section -->
+      <section class="max-w-screen-xl mx-auto rounded-xl">
+        <div
+          class="hero h-[70vh] rounded-xl"
+          style="background-image: url(images/banner.png)"
+        >
+          <!-- <div class="hero-overlay bg-opacity-60"></div> -->
+          <div class="hero-content text-center text-neutral-content">
+            <div class="">
+              <h1
+                class="mb-5 text-5xl font-extrabold w-full leading-relaxed text-white"
+              >
+                End-to-End Travel with <br />
+                <span class="text-[#1DD100]">P Paribahan</span>
+              </h1>
+              <p class="mb-5">
+                We provide the best service for you. We provide the best service
+                for you. We provide the best <br />
+                service for you. We provide the best service for you.
+              </p>
+              <button class="btn btn-primary bg-[#1DD100] border-0 text-black">
+                Buy Ticket
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- offer section -->
+      <section class="max-w-screen-xl mx-auto mt-20">
+        <div class="flex justify-center">
+          <h2 class="font-bold text-5xl">Best offers for you</h2>
+        </div>
+        <div class="flex justify-between mt-20 gap-10">
+          <!-- 15% offer -->
+          <div
+            class="bg-[#FFBF0F] flex rounded-xl w-[50%] items-center justify-evenly"
+          >
+            <div>
+              <h3 class="text-3xl font-extrabold">15% OFF</h3>
+              <p class="font-semibold">on your next purchase</p>
+              <p>use by January 2024</p>
+            </div>
+            <div class="">
+              <img src="images/cupon-devider.png" alt="" />
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold">NEW15</h3>
+              <p>Coupon Code</p>
+            </div>
+          </div>
+          <!-- 20%offer -->
+          <div
+            class="bg-[#F78C9C] flex rounded-xl w-[50%] items-center justify-evenly"
+          >
+            <div>
+              <h3 class="text-3xl font-extrabold">20% OFF</h3>
+              <p class="font-semibold">on your next purchase</p>
+              <p>use by January 2024</p>
+            </div>
+            <div><img src="images/cupon-devider.png" alt="" /></div>
+            <div>
+              <h3 class="text-3xl font-bold">Couple 20</h3>
+              <p>Coupon Code</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center mt-10">
+          <button class="btn border-1 border-[#1DD100] bg-white text-[#1DD100]">
+            See All Offers
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
